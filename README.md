@@ -2,9 +2,7 @@
 
 # 🏆 Online Auction System (DSA Project)
 
-![Language](https://img.shields.io/badge/Language-C-blue)
-![Data Structures](https://img.shields.io/badge/DSA-Heap%20%7C%20LinkedList%20%7C%20DAG-green)
-![Status](https://img.shields.io/badge/Status-Completed-success)
+
 
 ## 📖 Abstract
 This project implements an Online Auction System using core Data Structures 
@@ -83,12 +81,6 @@ Flow:
 - GeeksforGeeks
 - Online Auction Systems Research Papers
 
-📁 Online-Auction-System
- ├── auction.c
- ├── README.md
- ├── report.pdf
- └── output_images/
 
-## 📄 Project Report
-[Download Full Report](./report.pdf)
+
  
