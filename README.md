@@ -1,5 +1,90 @@
 # Online-Auction-Platform
 
+
+# 📘 Online Auction System (C Project)
+
+## 📌 Project Title
+Online Auction System using Heap, Linked List, and DAG
+
+---
+
+## 👨‍💻 Team Members
+- MAHEER SHAIK  
+- (Add your teammates if any)
+
+---
+
+## ❓ Problem Statement
+Design and implement an Online Auction System that allows:
+- Registration of players (bidders)
+- Adding auction items
+- Placing bids on items
+- Tracking the highest bid efficiently
+- Managing bid dependencies using a Directed Acyclic Graph (DAG)
+- Preventing invalid bid dependencies (cycles)
+
+---
+
+## 🧠 Data Structures Used
+
+### 1. Linked List
+- Used to store players and items
+- Supports dynamic memory allocation
+
+### 2. Max Heap
+- Stores bids efficiently
+- Allows quick access to highest bid (O(1))
+
+### 3. Directed Acyclic Graph (DAG)
+- Represents bid dependencies
+- Prevents cycles using DFS
+
+### 4. Arrays
+- Used for adjacency matrix representation
+
+---
+
+## ⚙️ Algorithm Explanation
+
+### 🔹 Add Player
+- Create new node
+- Insert into linked list
+
+### 🔹 Add Item
+- Create item node
+- Initialize heap and DAG
+
+### 🔹 Place Bid
+- Check if player exists
+- Insert bid into heap
+- Maintain heap property using heapify-up
+- Assign Bid ID
+
+### 🔹 Heap Operation
+- Parent = (i - 1) / 2
+- Swap if child > parent
+
+### 🔹 DAG Dependency
+- Add edge between bids
+- Run DFS to detect cycle
+- Reject if cycle exists
+
+### 🔹 Cycle Detection
+- Use visited[] and recursion stack
+- Detect back edge
+
+---
+
+## 🛠️ Compilation Instructions
+
+### ▶️ Compile
+```bash
+gcc auction.c -o auction
+
+
+
+
+
 [Online acution report.pdf](https://github.com/user-attachments/files/26956483/Online.acution.report.pdf)
 
 
