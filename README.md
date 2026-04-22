@@ -9,8 +9,8 @@ Online Auction System using Heap, Linked List, and DAG
 ---
 
 ## 👨‍💻 Team Members
-- MAHEER SHAIK  
-- (Add your teammates if any)
+- Shaik Maheer
+- Nanjala Vikram Karthikeya
 
 ---
 
@@ -75,11 +75,6 @@ Design and implement an Online Auction System that allows:
 
 ---
 
-## 🛠️ Compilation Instructions
-
-### ▶️ Compile
-```bash
-gcc auction.c -o auction
 
 
 
