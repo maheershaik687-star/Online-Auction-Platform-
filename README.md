@@ -80,7 +80,9 @@ Design and implement an Online Auction System that allows:
 
 
 
-[Online acution report.pdf](https://github.com/user-attachments/files/26956483/Online.acution.report.pdf)
+### sample ouput
+<img width="684" height="382" alt="image" src="https://github.com/user-attachments/assets/5fa2993c-77fb-42ce-bb12-7cdd7d65aafa" />
+
 
 
 
